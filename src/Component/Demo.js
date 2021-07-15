@@ -18,16 +18,16 @@ import firebase from './Firebase'
               setUser(res.user);
               setLoading(false);
           }
-          catch{
-              console.log(e.message);
-              setError('Failed to sign in');
-              setTimeout(()=>{
-                  setError('')
-              },2000)
-              setLoading(false);
-          }
-          setEmail("");
-          setPassword("");
+        //   catch{
+        //       console.log(e.message);
+        //       setError('Failed to sign in');
+        //       setTimeout(()=>{
+        //           setError('')
+        //       },2000)
+        //       setLoading(false);
+        //   }
+        //   setEmail("");
+        //   setPassword("");
     }
 
     return (
